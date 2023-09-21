@@ -1,0 +1,162 @@
+body {
+  background-color: White;
+}
+
+.myh1 {
+  color: red;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+.myp {
+  font-family: Arial;
+  font-size: 50px;
+}
+
+.myRedText {
+   color: red;
+   margin: 20px;
+   border-style: solid;
+   border-color: red;
+   border-width: 5px;
+   padding-left:15px;
+   background: pink;
+}
+
+.myBlueText {
+   color: blue;
+   margin: 20px;
+   border-style: solid;
+   border-color: blue;
+   border-width: 5px;
+   padding-left: 15px;
+   background: yellow;
+}
+
+.myGreenText {
+   color: green;
+   margin: 20px;
+   border-style: solid;
+   border-color: blue;
+   border-width: 5px;
+   padding-left: 15px;
+   background: orange;
+}
+
+.img {
+	border-style: solid;
+	border-color: blue;
+	border-width: 20px;
+}
+
+
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+
+li {
+  display: inline;
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #3cc3c3;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.myFooter {
+	text-align: center;
+	padding: 3px;
+	background-color: LightBlue;
+	color: white;
+}
+
+.pic_align {
+	text-align: left;
+}
+	
+ul.a {
+	list-style-type: circle;
+}
+li.b {
+  display: list-item;
+  color: black
+  text-align: left
+  text-decoration: none;
+}
