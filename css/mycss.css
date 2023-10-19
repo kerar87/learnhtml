@@ -156,7 +156,7 @@ ul.a {
 }
 li.b {
   display: list-item;
-  color: black
-  text-align: left
+  color: black;
+  text-align: left;
   text-decoration: none;
 }
